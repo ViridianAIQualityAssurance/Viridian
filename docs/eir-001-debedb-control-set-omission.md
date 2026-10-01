@@ -18,7 +18,7 @@ DEBEDb states that every published cross-strategy comparison in the earlier writ
 
 This is a strong example of a **control-set identity and comparator-validity failure**: the benchmark executed, produced plausible scores, and still supported comparisons whose denominator was materially wrong.
 
-Primary source: [DEBEDb — "Our Control Group Was Broken and It Cost Us 4.2 Points"](https://blog.debedb.com/)
+Primary source: [DEBEDb — "Our Control Group Was Broken and It Cost Us 4.2 Points"](https://blog.debedb.com/2026/09/22/our-control-group-was-broken-and-it-cost-us-4-2-points/)
 
 ## 1. Observed public facts
 
