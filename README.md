@@ -44,6 +44,8 @@ These are technical case analyses, not security vulnerability disclosures.
 
 - [Advanced V5 Qualification Evidence Pack — public summary](docs/advanced-v5-qualification-evidence-pack.md)
 - [Security & Diligence Overview](docs/security-and-diligence-overview.md)
+- [Threat Model](docs/threat-model.md)
+- [Data Flow & Trust Boundaries](docs/data-flow-and-trust-boundaries.md)
 - [Security Policy](SECURITY.md)
 - [NIST AI RMF evidence crosswalk](docs/nist-ai-rmf-crosswalk.md)
 
