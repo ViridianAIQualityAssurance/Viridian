@@ -108,4 +108,6 @@ For one bounded evaluation, model-comparison, regression, benchmark, or release 
 
 > Send one bounded evaluation, model-comparison, regression, benchmark, or release claim together with the artifacts supporting it. Viridian can assess the evidence and return a written assurance determination.
 
+**[Request an Experimental Assurance Audit](https://docs.google.com/forms/d/e/1FAIpQLScRhl7hZfzJbxi2ittQ2nNGawK9X_c67ERjhBrIVsmPuxsGxg/viewform)**
+
 Viridian works asynchronously in writing.
