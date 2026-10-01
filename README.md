@@ -16,6 +16,8 @@ Viridian preserves the +0.08 observation, but returns **INSUFFICIENT_EVIDENCE** 
 
 **[Read the Experimental Assurance Audit sample](docs/experimental-assurance-audit-model-comparison.md)**
 
+**[Request an Experimental Assurance Audit](https://docs.google.com/forms/d/e/1FAIpQLScRhl7hZfzJbxi2ittQ2nNGawK9X_c67ERjhBrIVsmPuxsGxg/viewform)**
+
 The point is simple: a higher score is not automatically a defensible improvement claim.
 
 ## Public technical resources
@@ -32,5 +34,7 @@ The point is simple: a higher score is not automatically a defensible improvemen
 Have one evaluation, model-comparison, regression, benchmark, or release claim you do not completely trust?
 
 Viridian can assess one bounded case asynchronously from the supporting artifacts and return a written assurance determination.
+
+**[Request an Experimental Assurance Audit](https://docs.google.com/forms/d/e/1FAIpQLScRhl7hZfzJbxi2ittQ2nNGawK9X_c67ERjhBrIVsmPuxsGxg/viewform)**
 
 No live demo or meeting is required.
