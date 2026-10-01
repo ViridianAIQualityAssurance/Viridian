@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use Viridian's public experimental-assurance materials, please cite the repository and the exact release or commit used."
+title: "Viridian: Experimental Assurance for AI Teams"
+type: software
+authors:
+  - name: "Viridian"
+repository-code: "https://github.com/ViridianAIQualityAssurance/Viridian"
+url: "https://github.com/ViridianAIQualityAssurance/Viridian"
+abstract: "Public technical material for Viridian, an experimental-assurance layer focused on evidence identity, comparability, evaluator integrity, provenance, confirmation boundaries, regressions, and claim scope."
+keywords:
+  - experimental assurance
+  - AI evaluation
+  - reproducibility
+  - provenance
+  - benchmark integrity
+  - evaluator integrity
