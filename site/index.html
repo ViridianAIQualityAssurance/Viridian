@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viridian — Experimental Assurance for AI Teams</title>
+  <meta name="description" content="Viridian qualifies whether the evidence behind model comparisons, evaluations, regressions and release decisions actually supports the claim being made.">
+  <meta name="theme-color" content="#0c1312">
+  <meta property="og:title" content="Viridian — Experimental Assurance for AI Teams">
+  <meta property="og:description" content="Know what your AI evidence actually supports.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="./mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="shell nav-wrap">
+    <a class="brand" href="#top" aria-label="Viridian home">
+      <span class="brand-mark" aria-hidden="true">V</span>
+      <span>VIRIDIAN</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" data-nav-toggle>Menu</button>
+    <nav class="nav" id="nav" data-nav>
+      <a href="#product">Product</a>
+      <a href="#method">Method</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#security">Security</a>
+      <a class="nav-cta" href="https://docs.google.com/forms/d/e/1FAIpQLScRhl7hZfzJbxi2ittQ2nNGawK9X_c67ERjhBrIVsmPuxsGxg/viewform" target="_blank" rel="noreferrer">Request a review</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="shell hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Experimental assurance for AI teams</p>
+        <h1>Know what your AI evidence actually supports.</h1>
+        <p class="lede">Viridian sits around your existing evaluation stack and qualifies the evidence behind model comparisons, benchmark claims, regressions and release decisions.</p>
+        <div class="actions">
+          <a class="button primary" href="https://docs.google.com/forms/d/e/1FAIpQLScRhl7hZfzJbxi2ittQ2nNGawK9X_c67ERjhBrIVsmPuxsGxg/viewform" target="_blank" rel="noreferrer">Request an experimental assurance review</a>
+          <a class="button quiet" href="https://github.com/ViridianAIQualityAssurance/Viridian/blob/main/docs/sample-assurance-output-v1.md" target="_blank" rel="noreferrer">Read a sample determination</a>
+        </div>
+        <div class="hero-note">
+          <span>Asynchronous by default</span>
+          <span>Works around your current stack</span>
+          <span>Written, evidence-bounded output</span>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Example Viridian assurance determination">
+        <div class="panel-topline"><span>PUBLIC FIXTURE / 001</span><span>MODEL COMPARISON</span></div>
+        <div class="verdict">UNKNOWN</div>
+        <p class="verdict-sub">Claim not yet admissible</p>
+        <div class="score-line">
+          <div><span>Baseline</span><strong>0.71</strong></div>
+          <div><span>Candidate</span><strong>0.79</strong></div>
+          <div><span>Observed Δ</span><strong>+0.08</strong></div>
+        </div>
+        <div class="finding-list">
+          <div class="finding"><span>F-001</span><p>Evaluator identity changed between arms.</p></div>
+          <div class="finding"><span>F-002</span><p>Candidate dataset version is missing.</p></div>
+          <div class="finding"><span>F-003</span><p>No protected confirmation was supplied.</p></div>
+        </div>
+        <p class="panel-foot">The positive observation is preserved. The stronger promotion claim is blocked.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="problem-strip" aria-label="Common experimental failure modes">
+    <div class="shell strip-grid">
+      <div><span>01</span><p>Evaluator drift</p></div>
+      <div><span>02</span><p>Comparator mismatch</p></div>
+      <div><span>03</span><p>Missing evidence</p></div>
+      <div><span>04</span><p>Provenance errors</p></div>
+      <div><span>05</span><p>Contaminated confirmation</p></div>
+    </div>
+  </section>
+
+  <section class="section light" id="product">
+    <div class="shell section-grid">
+      <div class="section-index"><span>01</span><p>Product</p></div>
+      <div class="section-body">
+        <p class="kicker">A higher score is an observation. It is not automatically a defensible conclusion.</p>
+        <h2>Viridian separates what happened from what the evidence is allowed to prove.</h2>
+        <div class="capability-grid">
+          <article><h3>Evidence identity</h3><p>Bind results to the model, dataset, evaluator, code, environment and run identities that actually produced them.</p></article>
+          <article><h3>Comparator integrity</h3><p>Detect when baseline and candidate are no longer materially comparable, even when both still produce plausible scores.</p></article>
+          <article><h3>Evaluator integrity</h3><p>Treat the judge or evaluator as part of the measurement system, with its own identity, failures and qualification boundaries.</p></article>
+          <article><h3>Missingness &amp; UNKNOWN</h3><p>Keep dropped rows, failed judges and absent identities visible instead of silently converting missing evidence into confidence.</p></article>
+          <article><h3>Confirmation boundaries</h3><p>Distinguish development evidence from protected confirmation so iterative tuning does not inherit final-decision authority.</p></article>
+          <article><h3>Claim scope</h3><p>Return the strongest statement the current evidence can support—and exactly what additional evidence would change it.</p></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark" id="method">
+    <div class="shell section-grid">
+      <div class="section-index inverse"><span>02</span><p>Method</p></div>
+      <div class="section-body">
+        <p class="kicker inverse-kicker">Viridian does not replace your training or evaluation framework.</p>
+        <h2 class="inverse-title">It adds an assurance boundary around the decision.</h2>
+        <div class="flow" role="img" aria-label="Experiment stack flows through Viridian intake and assurance gates to an assurance determination">
+          <div class="flow-node"><span>A</span><strong>Your experiment / eval stack</strong><small>Runs, scores, judges, traces, artifacts</small></div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-node active"><span>B</span><strong>Viridian intake</strong><small>Identity, provenance, evidence class</small></div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-node active"><span>C</span><strong>Assurance gates</strong><small>Comparator, evaluator, confirmation, regressions</small></div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-node"><span>D</span><strong>Determination</strong><small>PASS / FAIL / UNKNOWN + claim ceiling</small></div>
+        </div>
+        <div class="method-notes">
+          <div><span>INPUT</span><p>Exact claim + supporting artifacts.</p></div>
+          <div><span>OUTPUT</span><p>Findings, surviving evidence, strongest admissible statement, and next evidence required.</p></div>
+          <div><span>BOUNDARY</span><p>A Viridian result is scoped. It does not claim universal truth, safety or compliance.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section light" id="evidence">
+    <div class="shell section-grid">
+      <div class="section-index"><span>03</span><p>Evidence</p></div>
+      <div class="section-body">
+        <p class="kicker">Public technical evidence, not trust-me marketing.</p>
+        <h2>Inspect the cases, qualification scope and limitations yourself.</h2>
+
+        <div class="evidence-cases">
+          <a class="case" href="https://github.com/ViridianAIQualityAssurance/Viridian/blob/main/docs/eir-001-debedb-control-set-omission.md" target="_blank" rel="noreferrer">
+            <div class="case-meta"><span>EIR-001</span><span>Comparator integrity</span></div>
+            <h3>A control was described as “full repository.” It contained 69 of 97 files.</h3>
+            <p>DEBEDb's corrected baseline moved from 6.60 to 10.80 out of 12, changing the authority of comparisons anchored to the broken control.</p>
+            <span class="text-link">Read the integrity report →</span>
+          </a>
+          <a class="case" href="https://github.com/ViridianAIQualityAssurance/Viridian/blob/main/docs/eir-002-memgraph-evidence-misassociation.md" target="_blank" rel="noreferrer">
+            <div class="case-meta"><span>EIR-002</span><span>Evidence association</span></div>
+            <h3>The aggregate looked plausible. The per-question evidence was attached to the wrong cases.</h3>
+            <p>A concurrent evaluator returned results in completion order; positional matching corrupted per-case and per-type conclusions.</p>
+            <span class="text-link">Read the integrity report →</span>
+          </a>
+        </div>
+
+        <div class="qualification">
+          <div class="qualification-copy">
+            <p class="micro-label">ADVANCED V5 / QUALIFIED SCOPE</p>
+            <h3>Qualification statements are deliberately narrow.</h3>
+            <p>Viridian publishes what was tested, the exact envelope it applies to, and what remains outside scope.</p>
+            <a class="text-link" href="https://github.com/ViridianAIQualityAssurance/Viridian/blob/main/docs/advanced-v5-qualification-evidence-pack.md" target="_blank" rel="noreferrer">Open qualification evidence pack →</a>
+          </div>
+          <dl class="metrics">
+            <div><dt>30</dt><dd>evidence-integration vectors / PASS</dd></div>
+            <div><dt>20/20</dt><dd>clean-vs-R3 exact or declared-equivalent</dd></div>
+            <div><dt>3,390</dt><dd>live-soak observations</dd></div>
+            <div><dt>84/84</dt><dd>injected failures / corresponding sentinels</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section paper" id="security">
+    <div class="shell section-grid">
+      <div class="section-index"><span>04</span><p>Security</p></div>
+      <div class="section-body">
+        <p class="kicker">Security claims are held to the same evidence standard.</p>
+        <h2>Qualified where measured. Explicit where unknown.</h2>
+        <div class="security-grid">
+          <div class="security-main">
+            <h3>Current qualified boundary: trusted-local.</h3>
+            <p>Advanced V5 is experimental-assurance infrastructure, not a hardened malware sandbox. Hostile native-code containment remains outside the qualified security scope.</p>
+            <p>The architecture uses persistent local SQLite stores for structured evidence, provenance, recovery and reconstruction. Deployment-specific network, privacy and credential properties must be measured for the actual package and integration.</p>
+          </div>
+          <div class="disclosure-list">
+            <div><span>NOT CLAIMED</span><p>SOC 2, ISO 27001, ISO/IEC 42001 or NIST certification.</p></div>
+            <div><span>NOT CLAIMED</span><p>Universal no-phone-home behavior before packaged network testing.</p></div>
+            <div><span>NOT CLAIMED</span><p>Qualification transfer from the pinned R3 envelope to arbitrary customer stacks.</p></div>
+          </div>
+        </div>
+        <div class="security-links">
+          <a href="https://github.com/ViridianAIQualityAssurance/Viridian/blob/main/docs/security-and-diligence-overview.md" target="_blank" rel="noreferrer">Security &amp; diligence overview</a>
+          <a href="https://github.com/ViridianAIQualityAssurance/Viridian/blob/main/docs/threat-model.md" target="_blank" rel="noreferrer">Threat model</a>
+          <a href="https://github.com/ViridianAIQualityAssurance/Viridian/blob/main/docs/data-flow-and-trust-boundaries.md" target="_blank" rel="noreferrer">Data flow &amp; trust boundaries</a>
+          <a href="https://github.com/ViridianAIQualityAssurance/Viridian/blob/main/docs/nist-ai-rmf-crosswalk.md" target="_blank" rel="noreferrer">NIST AI RMF crosswalk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="review" id="review">
+    <div class="shell review-grid">
+      <div>
+        <p class="eyebrow">Bounded experimental assurance review</p>
+        <h2>Have one result you do not completely trust?</h2>
+      </div>
+      <div>
+        <p>Send one evaluation, model-comparison, regression, benchmark or release claim together with the artifacts supporting it. Viridian returns a written determination bounded to the evidence supplied.</p>
+        <ul class="review-list">
+          <li>No live demo required.</li>
+          <li>No replacement of your existing stack.</li>
+          <li>Missing evidence may produce UNKNOWN rather than a fabricated answer.</li>
+        </ul>
+        <div class="review-actions">
+          <a class="button light-button" href="https://docs.google.com/forms/d/e/1FAIpQLScRhl7hZfzJbxi2ittQ2nNGawK9X_c67ERjhBrIVsmPuxsGxg/viewform" target="_blank" rel="noreferrer">Submit a bounded case</a>
+          <a class="button ghost-button" href="mailto:viridian9182012@gmail.com">viridian9182012@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="shell footer-grid">
+    <div><div class="footer-brand">VIRIDIAN</div><p>Experimental assurance for AI teams.</p></div>
+    <div class="footer-links">
+      <a href="https://github.com/ViridianAIQualityAssurance/Viridian" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://github.com/ViridianAIQualityAssurance/Viridian/blob/main/docs/sample-assurance-output-v1.md" target="_blank" rel="noreferrer">Sample output</a>
+      <a href="https://github.com/ViridianAIQualityAssurance/Viridian/blob/main/SECURITY.md" target="_blank" rel="noreferrer">Security</a>
+      <a href="mailto:viridian9182012@gmail.com">Contact</a>
+    </div>
+    <p class="footer-note">Viridian does not claim to prove universal scientific truth, system safety or regulatory compliance. Assurance determinations are scoped to the supplied evidence and declared qualification boundary.</p>
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
